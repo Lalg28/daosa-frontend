@@ -1,0 +1,37 @@
+
+// @import  './abstracts/variables';
+// @import  './abstracts/mixins';
+@import  './../../node_modules/bootstrap/scss/bootstrap.scss';
+@import  './abstracts/common';
+@import './layout/header';
+@import  './layout/navigation'; 
+@import './components/slider';
+@import  './components/accordion';
+@import  './components/breadcrumb';
+@import  './pages/contact';
+@import './pages/mission';
+@import './components/cta';
+@import './components/about';
+@import './components/section_title';
+@import './components/cause';
+@import './components/support';
+@import './components/choose_single_card';
+@import './components/feature_event';
+@import './components/newsfeed';
+@import './components/iconbox';    
+@import './components/eventcount';
+@import './components/donation';
+@import './components/team';
+@import './components/choose';
+@import './components/circular_progress';
+@import './components/funfact';
+@import './components/services';
+@import './components/events';
+@import './components/testimonial';
+@import './components/back-to-top';
+@import './components/custom';
+@import  './layout/sidebar';
+@import './layout/footer';
+// @import 'node_modules/react-modal-video/scss/modal-video.scss';
+
+
