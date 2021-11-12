@@ -14,7 +14,6 @@ const initialState = {
 
 //Reducer
 export default function userReducer(state = initialState, { type, payload }) {
-  console.log(payload);
   switch (type) {
     case USER_LOGIN_TRY:
       return { ...state, loading: true };

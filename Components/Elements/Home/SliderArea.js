@@ -16,8 +16,8 @@ export default function SliderArea() {
                            <div className="col-xxl-6 col-xl-7 col-lg-8 col-md-9">
                                <div className="slider_content text_space">
                                    <div className="slider_text text_overlay">
-                                       <h2 className="slider_title"> <span>Make</span> <br /> Donation</h2>
-                                       <div className="slider_button"><Link href="/cause"><a className="g_btn theme1_bg to_right2 slider_btn i_left rad-30 p-35"><i className="fal fa-heart"></i> Explore Causes<span></span></a></Link></div>
+                                       <h2 className="slider_title"> <span>Grupo</span> <br /> Daosa</h2>
+                                       {/* <div className="slider_button"><Link href="/cause"><a className="g_btn theme1_bg to_right2 slider_btn i_left rad-30 p-35"><i className="fal fa-heart"></i> Explore Causes<span></span></a></Link></div> */}
                                    </div>
                                </div>
                            </div>

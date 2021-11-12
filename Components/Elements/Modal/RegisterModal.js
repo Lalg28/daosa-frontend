@@ -18,6 +18,7 @@ function RegisterModal({registerModal, setRegisterModal}) {
         icon: "success",
         showConfirmButton: false,
       });
+      setRegisterModal(false)
     } else {
       Swal.fire({
         title: "Hubo un error",
@@ -48,6 +49,12 @@ function RegisterModal({registerModal, setRegisterModal}) {
               placeholder="Nombre Completo"
               className="form-control py-2"
               {...register("username")}
+            />
+             <input 
+              type="number"
+              placeholder="Numero telefónico"
+              className="form-control py-2 mt-3"
+              {...register("phone")}
             />
             <input
               type="email"

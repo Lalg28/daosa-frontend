@@ -1,1 +1,1 @@
-export const BASE_PATH = "https://backend-daosa.herokuapp.com"
+export const BASE_PATH = "http://localhost:1337"

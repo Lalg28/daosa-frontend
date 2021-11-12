@@ -9814,7 +9814,7 @@ input:focus:-ms-input-placeholder {
     padding: 15px 0; } }
 
 .logo img {
-  min-width: 160px; }
+  min-width: 250px; }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .header_menu_area_2 {

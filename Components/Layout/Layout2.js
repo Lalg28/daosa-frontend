@@ -2,7 +2,6 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import {useDispatch} from 'react-redux'
 import SideBarMobile from './SideBarMobile'
-import SideBarFullscreen from './SideBarFullscreen'
 import Header2 from './Header2'
 import Footer1 from './Footer1'
 import { loginUserStorage } from '../../redux/ducks/userDuck'
@@ -30,8 +29,6 @@ export default function Layout2({ children }) {
 
             
             <SideBarMobile toggleTrueFalseInfo={toggleTrueFalseInfo} isToggledInfo={isToggledInfo} />
-
-            <SideBarFullscreen toggleTrueFalseInfo={toggleTrueFalseInfo} isToggledInfo={isToggledInfo} />
 
             <div onClick={toggleTrueFalseInfo} className={`offcanvas-overlay ${isToggledInfo ? "overlay-open" : ""}`}></div>
 

@@ -11,9 +11,10 @@ function LoginModal({ showModal, setShowModal }) {
   const user = useSelector((state) => state.user);
 
   const onSubmit = async (data) => {
-    dispatch(loginUser(data));
+    dispatch(loginUser(data))
     if (!user.loading) {
       if (user.jwt) {
+        console.log('entro')
         setShowModal(false);
       } else {
         Swal.fire({
