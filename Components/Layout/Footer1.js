@@ -29,7 +29,7 @@ export default function Footer1() {
           <div className="footer_top_wrapper p-rel">
             <div className="container">
               <div className="row">
-                <div className="col-xxl-4 col-xl-3 col-lg-7 col-md-7 col-sm-7">
+                <div className="col-xxl-4 col-xl-4 col-lg-7 col-md-7 col-sm-7">
                   <div className="footer_widget mb-50">
                     <div className="footer_widget_title mb-30">
                       <h4 className="footer_title">About Us</h4>
@@ -62,7 +62,7 @@ export default function Footer1() {
                     </div>
                   </div>
                 </div>
-                <div className="col-xxl-4 col-xl-3 col-lg-5 col-md-5 col-sm-5">
+                <div className="col-xxl-4 col-xl-4 col-lg-5 col-md-5 col-sm-5">
                   <div className="footer_widget mb-50 pl_37">
                     <div className="footer_widget_title mb-30">
                       <h4 className="footer_title">Our Pages</h4>
@@ -118,12 +118,12 @@ export default function Footer1() {
                     </div>
                   </div>
                 </div>
-                <div className="col-xxl-4 col-xl-3 col-lg-7 col-md-7 col-sm-7">
+                <div className="col-xxl-4 col-xl-4 col-lg-7 col-md-7 col-sm-7">
                   <div className="footer_widget footer_news mb-50">
                     <div className="footer_widget_title mb-30">
-                      <h4 className="footer_title">¿Eres colaborador?</h4>
+                      <h4 className="footer_title text-center">¿Eres colaborador?</h4>
                     </div>
-                    <div className="d-flex flex-column align-items-start">
+                    <div className="d-flex flex-column align-items-center">
                       {!user.jwt ? (
                         <>
                           <button

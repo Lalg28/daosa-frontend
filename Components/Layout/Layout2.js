@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import {useDispatch} from 'react-redux'
 import SideBarMobile from './SideBarMobile'
-import Header2 from './Header2'
+import Header1 from './Header1'
 import Footer1 from './Footer1'
 import { loginUserStorage } from '../../redux/ducks/userDuck'
 
@@ -25,7 +25,7 @@ export default function Layout2({ children }) {
 
     return (
         <>
-            <Header2 toggleTrueFalseInfo={toggleTrueFalseInfo} />
+            <Header1 toggleTrueFalseInfo={toggleTrueFalseInfo} />
 
             
             <SideBarMobile toggleTrueFalseInfo={toggleTrueFalseInfo} isToggledInfo={isToggledInfo} />

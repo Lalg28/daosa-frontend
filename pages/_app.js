@@ -28,7 +28,7 @@ export default function MyApp({ Component, pageProps }) {
     <Provider store={store}>
       <Head>
         <meta charset="utf-8" />
-        <title>Fundraising & Charity React Template</title>
+        <title>Daosa</title>
         <meta name="description" content="Developed by TrendyCoder" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
