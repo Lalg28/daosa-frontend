@@ -24,7 +24,7 @@ export default function Footer1() {
       <footer>
         <div
           className="footer_top_area footer_default_area p-rel bg_cover"
-          style={{ background: "url(/img/footer/footer_bg.jpg)" }}
+          style={{ background: "url(/img/footer/footer_bg.png)" }}
         >
           <div className="footer_top_wrapper p-rel">
             <div className="container">

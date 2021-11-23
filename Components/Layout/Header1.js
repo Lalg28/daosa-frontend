@@ -13,7 +13,7 @@ export default function Header1({ toggleTrueFalse, toggleTrueFalseInfo }) {
             <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-6 col-6">
               <div className="logo">
                 <Link href="/">
-                  <a className="d-block py-3" style={{maxWidth: 140}}>
+                  <a className="d-block py-3" style={{maxWidth: 120}}>
                     <Image src={logo} alt="logo" className="imgLogo"/>
                   </a>
                 </Link>

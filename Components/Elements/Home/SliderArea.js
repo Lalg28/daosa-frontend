@@ -6,9 +6,6 @@ export default function SliderArea() {
   return (
     <section className="slider_area">
       <div className="slider_active" style={{ position: "relative" }}>
-        {/* <div style={{ position: "absolute", width: "100%" }}>
-          
-        </div> */}
         <Image
             src={Banner}
             objectFit="cover" 

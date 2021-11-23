@@ -9,6 +9,8 @@ import "./../public/css/magnific-popup.css";
 import "./../public/css/nice-select.css";
 import "metismenujs/dist/metismenujs.css";
 import "../styles/globals.css";
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
 import { Provider } from "react-redux";
 import { useEffect } from "react";
 import Head from "next/head";
